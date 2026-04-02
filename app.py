@@ -4,7 +4,7 @@ import datetime
 
 from rag.vector_store import create_vector_store
 from rag.retriever import get_retriever
-from graph.chatbot_graph import create_graph
+from chatbot_graph import create_graph
 
 st.set_page_config(page_title="AI Admission Assistant", layout="wide")
 
